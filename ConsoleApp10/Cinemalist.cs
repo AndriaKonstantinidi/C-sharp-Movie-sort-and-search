@@ -78,6 +78,11 @@ namespace ConsoleApp10
                     string namefind = Console.ReadLine();
                     SearchByName(namefind);
                     break;
+                case 3:
+                    Console.WriteLine("Search Year");
+                    int yearfind = Convert.ToInt32(Console.ReadLine());
+                    SearchByYear(yearfind);
+                    break;
             }
         }
     }
